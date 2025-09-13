@@ -15,9 +15,9 @@ zkIoT bridges physical sensors and blockchain verification through:
 3. **Trusted Communication** – TLS/MQTT pipelines commit encrypted sensor data, while only ZK proofs flow on-chain.
 
 ## Usecase 
--Under-collateralized Industrial Lending × IoT Production Proof.
--IoT-based Whitelisting for EV Charging & Smart Mobility.
--Selective Disclosure in Pharma Cold Chain Compliance.
+- Under-collateralized Industrial Lending × IoT Production Proof.
+- IoT-based Whitelisting for EV Charging & Smart Mobility.
+- Selective Disclosure in Pharma Cold Chain Compliance.
 
 ## Technologies I used
 <img width="907" height="552" alt="Image" src="https://github.com/user-attachments/assets/1d551f10-e3ae-433c-87c2-d445277f5553" />
