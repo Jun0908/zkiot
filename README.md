@@ -72,7 +72,7 @@ Selective Disclosure in Pharma Cold Chain Compliance.
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
 | Demo Movie      |                                      [zkiot-demo](https://youtu.be/WDGJQbM-rik)|
-| Pitch Doc    |   [zkiot-presentation](https://www.canva.com/design/DAGOvSFvJ4E/SfJTYw3sauGSbj1k4oQdDg/edit?utm_content=DAGOvSFvJ4E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
+| Pitch Doc    |   [zkiot-presentation](https://www.canva.com/design/DAGxszg1ejA/_BAAG-tUr6_MTcjdlD_zBA/edit?utm_content=DAGxszg1ejA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 | Demo Site     |                                 [zkiot-demo](https://zk-credit-teal.vercel.app/) | 
 
 ## What's next for
