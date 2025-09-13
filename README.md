@@ -16,8 +16,11 @@ zkIoT bridges physical sensors and blockchain verification through:
 
 ## Usecase 
 Under-collateralized Industrial Lending × IoT Production Proof.
+
 IoT-based Whitelisting for EV Charging & Smart Mobility.
+
 Selective Disclosure in Pharma Cold Chain Compliance.
+
 
 ## Technologies I used
 - **Zero-Knowledge Proof frameworks:** Groth16 / PLONK / STARK (for range & threshold proofs).
