@@ -86,8 +86,7 @@ Selective Disclosure in Pharma Cold Chain Compliance.
 
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
-| Ethereum Sepolia    | [0xf2c9d93716e818bda8fd9cd13b692ec5302d5568](https://sepolia.etherscan.io/address/0xf2c9d93716e818bda8fd9cd13b692ec5302d5568#code)|
-| Base Sepolia    | [0x677ab31a9d777eedbc88ce2198dce8de9378e78f](https://sepolia.scrollscan.com/address/0x677ab31a9d777eedbc88ce2198dce8de9378e78f)|
+| Ethereum Sepolia    | [0x25Fb97F93B20701D382Fe9383Dee9Af5d0739618](https://etherscan.io/address/0x25fb97f93b20701d382fe9383dee9af5d0739618)|
 | JSC Kaigan Testnet    | [0x677aB31a9D777eEdbc88CE2198dcE8de9378E78f](https://testnetscan.nerochain.io/address/0x677aB31a9D777eEdbc88CE2198dcE8de9378E78f)|
 
 
