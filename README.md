@@ -23,11 +23,6 @@ Selective Disclosure in Pharma Cold Chain Compliance.
 
 
 ## Technologies I used
-- **Zero-Knowledge Proof frameworks:** Groth16 / PLONK / STARK (for range & threshold proofs).
-- **Cryptographic primitives:** Poseidon hash, Merkle trees, BLS12-381 curves.
-- **IoT devices & sensors:** M5Stack, DS18B20 (temperature), IMU (vibration/acceleration), dB sound meters.
-- **Secure elements:** ATECC608A for hardware-based key storage.
-- **Cloud & integration:** AWS IoT Core, MQTT, Lambda for data aggregation and proof generation.
 <img width="907" height="552" alt="Image" src="https://github.com/user-attachments/assets/1d551f10-e3ae-433c-87c2-d445277f5553" />
 
 ## Architecture
