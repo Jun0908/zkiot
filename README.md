@@ -15,12 +15,9 @@ zkIoT bridges physical sensors and blockchain verification through:
 3. **Trusted Communication** – TLS/MQTT pipelines commit encrypted sensor data, while only ZK proofs flow on-chain.
 
 ## Usecase 
-Under-collateralized Industrial Lending × IoT Production Proof.
-
-IoT-based Whitelisting for EV Charging & Smart Mobility.
-
-Selective Disclosure in Pharma Cold Chain Compliance.
-
+-Under-collateralized Industrial Lending × IoT Production Proof.
+-IoT-based Whitelisting for EV Charging & Smart Mobility.
+-Selective Disclosure in Pharma Cold Chain Compliance.
 
 ## Technologies I used
 <img width="907" height="552" alt="Image" src="https://github.com/user-attachments/assets/1d551f10-e3ae-433c-87c2-d445277f5553" />
@@ -79,30 +76,24 @@ Selective Disclosure in Pharma Cold Chain Compliance.
 
 ## Contracts　
 **Verifier Contract**
-
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
 | Ethereum Sepolia    | [0x25Fb97F93B20701D382Fe9383Dee9Af5d0739618](https://etherscan.io/address/0x25fb97f93b20701d382fe9383dee9af5d0739618)|
 | JSC Kaigan Testnet    | [0x1440a247071edde7e1016b18126163d805f98c31](https://explorer.kaigan.jsc.dev/address/0x1440A247071EDdE7e1016b18126163D805f98C31)|
 
 **Verifier Contract**
-
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
 | Ethereum Sepolia    | [0x25Fb97F93B20701D382Fe9383Dee9Af5d0739618](https://etherscan.io/address/0x25fb97f93b20701d382fe9383dee9af5d0739618)|
 | JSC Kaigan Testnet    | [0x1440a247071edde7e1016b18126163d805f98c31](https://explorer.kaigan.jsc.dev/address/0x1440A247071EDdE7e1016b18126163D805f98C31)|
 
 **Verifier Contract**
-
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
 | Ethereum Sepolia    | [0x25Fb97F93B20701D382Fe9383Dee9Af5d0739618](https://etherscan.io/address/0x25fb97f93b20701d382fe9383dee9af5d0739618)|
 | JSC Kaigan Testnet    | [0x1440a247071edde7e1016b18126163d805f98c31](https://explorer.kaigan.jsc.dev/address/0x1440A247071EDdE7e1016b18126163D805f98C31)|
-
 
 ## References　
 - https://docs.circom.io/getting-started/installation
 - https://docs.elizaos.ai/
 - https://core2-for-aws-docs.m5stack.com/en/
-
-
