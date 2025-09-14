@@ -1,0 +1,30 @@
+<.header>
+  Message {@message.id}
+  <:subtitle>This is a message record from your database.</:subtitle>
+</.header>
+
+<.list>
+  <:item title="Topic">{@message.topic}</:item>
+  <:item title="Client">{@message.client_id}</:item>
+  <:item title="Received at">{@message.received_at}</:item>
+  <:item title="Message">{inspect(@message.message)}</:item>
+   <:item title="Proof">{inspect(@message.proof)}</:item>
+</.list>
+
+<.back navigate={~p"/message"}>Back to message</.back>
+
+<.modal
+  :if={@live_action == :edit}
+  id="message-modal"
+  show
+  on_cancel={JS.patch(~p"/message/#{@message}")}
+>
+  <.live_component
+    module={ZkBackendWeb.MessageLive.FormComponent}
+    id={@message.id}
+    title={@page_title}
+    action={@live_action}
+    message={@message}
+    patch={~p"/message/#{@message}"}
+  />
+</.modal>

@@ -1,0 +1,33 @@
+<.header>
+  Device {@device.id}
+  <:subtitle>This is a device record from your database.</:subtitle>
+  <:actions>
+    <.link patch={~p"/device/#{@device}/show/edit"} phx-click={JS.push_focus()}>
+      <.button>Edit device</.button>
+    </.link>
+  </:actions>
+</.header>
+
+<.list>
+  <:item title="Name">{@device.name}</:item>
+  <:item title="Client">{@device.client_id}</:item>
+  <:item title="Type">{@device.type}</:item>
+</.list>
+
+<.back navigate={~p"/device"}>Back to device</.back>
+
+<.modal
+  :if={@live_action == :edit}
+  id="device-modal"
+  show
+  on_cancel={JS.patch(~p"/device/#{@device}")}
+>
+  <.live_component
+    module={ZkBackendWeb.DeviceLive.FormComponent}
+    id={@device.id}
+    title={@page_title}
+    action={@live_action}
+    device={@device}
+    patch={~p"/device/#{@device}"}
+  />
+</.modal>
