@@ -12,9 +12,9 @@ const char* ssid        = "pr500k-b58382-1";
 const char* password    = "96d4e4b79c93a";
 const char* awsEndpoint = "a2uyylclhlg2f7-ats.iot.ap-northeast-1.amazonaws.com";
 const int   awsPort     = 8883;
-const char* thingName   = "test_0818";
+const char* thingName   = "test_0914";
 // 送信トピック（M5→AWS）
-const char* pubTopic    = "devices/test_0818/telemetry";
+const char* pubTopic    = "devices/test_0914/telemetry";
 // 受信トピック（AWS→M5）
 const char* subTopic    = "test/topic";
 // =====================================

@@ -1,1 +1,3 @@
-{"topic":"devices/test_0914/telemetry","clientId":"test_0914","receivedAt":1756365421799,"t":34.73,"h":34.7,"p":1011.6,"g":376886,"deviceTs":1756365421}
+{"topic":"devices/test_0914/telemetry","clientId":"test_0914",
+"receivedAt":1756365421799,"t":34.73,"h":34.7,
+"p":1011.6,"g":376886,"deviceTs":1756365421}
