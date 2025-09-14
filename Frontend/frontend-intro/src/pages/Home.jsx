@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Shield, Key, Lock, Zap, Globe, Database, ChevronRight, Languages, Menu, X } from 'lucide-react';
 
+
 const translations = {
   en: {
     nav: {
@@ -104,6 +105,14 @@ const translations = {
           "ENS as identity layer for trustworthy IoT devices",
           "Privacy-preserving public goods with ZK + ENS",
           "Global public goods registry for IoT data verification"
+        ]
+      },
+      elizaOS: {
+        title: "ElizaOS Agent Integration",
+        points: [
+          "Agentic orchestration for IoT workflows and ZK verification",
+          "Policy-safe, auditable automations across devices and chains",
+          "Open-source adapters to connect sensors, LLMs, and on-chain actions"
         ]
       }
     },
@@ -213,7 +222,15 @@ const translations = {
           "ZK + ENSによるプライバシー保護公共財",
           "IoTデータ検証のためのグローバル公共財レジストリ"
         ]
-      }
+      },
+      elizaOS: {
+        title: "ElizaOSエージェント統合",
+        points: [
+          "IoTワークフローとZK検証のエージェント自動化",
+          "ポリシー準拠・監査可能なデバイス／チェーン横断オートメーション",
+          "センサー・LLM・オンチェーン連携のためのOSSアダプタ"
+        ]
+     }
     },
     footer: {
       contact: "お問い合わせ",
@@ -340,14 +357,19 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-3">
-                {t.hero.cta}
-                <ChevronRight className="w-5 h-5 ml-2" />
-              </Button>
-              <Button variant="outline" size="lg" className="border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white px-8 py-3">
-                {t.hero.learn}
-              </Button>
-            </div>
+  {/* CTA → ダッシュボードへ（Viteなので a を使う） */}
+  <Button asChild size="lg" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-3">
+    <a href="https://zkiot-frontend-app.vercel.app/">
+      {t.hero.cta}
+      <ChevronRight className="w-5 h-5 ml-2" />
+    </a>
+  </Button>
+  {/* Learn More → ページ内リンク */}
+  <Button asChild variant="outline" size="lg" className="border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white px-8 py-3">
+    <a href="#solution">{t.hero.learn}</a>
+  </Button>
+</div>
+
           </div>
         </div>
       </section>
@@ -491,50 +513,44 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Partners Section */}
-      <section id="partners" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-950">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              {t.partners.title}
-            </h2>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="bg-gray-900 border-gray-800">
-              <CardContent className="p-8">
-                <h3 className="text-xl font-semibold text-white mb-4">
-                  {t.partners.japanOpenChain.title}
-                </h3>
-                <ul className="space-y-3">
-                  {t.partners.japanOpenChain.points.map((point, index) => (
-                    <li key={index} className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-gray-300">{point}</span>
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-gray-900 border-gray-800">
-              <CardContent className="p-8">
-                <h3 className="text-xl font-semibold text-white mb-4">
-                  {t.partners.ens.title}
-                </h3>
-                <ul className="space-y-3">
-                  {t.partners.ens.points.map((point, index) => (
-                    <li key={index} className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-gray-300">{point}</span>
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
+     
+{/* Partners Section */}
+<section id="partners" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-950">
+  <div className="max-w-7xl mx-auto">
+    <div className="text-center mb-12">
+      <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+        {t.partners.title}
+      </h2>
+    </div>
+
+    {/* 配列でまとめてマッピング */}
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {[
+        t.partners.japanOpenChain,
+        t.partners.ens,
+        t.partners.elizaOS
+      ].map((partner, idx) => (
+        <Card key={idx} className="bg-gray-900 border-gray-800">
+          <CardContent className="p-8">
+            <h3 className="text-xl font-semibold text-white mb-4">
+              {partner.title}
+            </h3>
+            <ul className="space-y-3">
+              {partner.points.map((point, i) => (
+                <li key={i} className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <span className="text-gray-300">{point}</span>
+                </li>
+              ))}
+            </ul>
+          </CardContent>
+        </Card>
+      ))}
+    </div>
+  </div>
+</section>
+
+
 
       {/* Footer */}
       <footer className="py-12 px-4 sm:px-6 lg:px-8 border-t border-gray-800">
