@@ -1,0 +1,27 @@
+{
+  "name": "mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.5",
+    "dotenv": "^17.2.2",
+    "ethers": "^6.15.0",
+    "snarkjs": "^0.7.5",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/snarkjs": "^0.7.9",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
