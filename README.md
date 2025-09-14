@@ -87,11 +87,11 @@ zkIoT bridges physical sensors and blockchain verification through:
 | Ethereum Sepolia    | [0x0bf0c1505731a14282f325d964321e86426ac492](https://etherscan.io/address/0x0bf0c1505731a14282f325d964321e86426ac492)|
 | JSC Kaigan Testnet    | [0xe2a548dacdbc942d659a523fd40335000c80064c](https://explorer.kaigan.jsc.dev/address/0xe2a548DaCdBC942D659a523FD40335000C80064c)|
 
-**Verifier Contract**
+**CompliantLotNFT Contract**
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
-| Ethereum Sepolia    | [0x25Fb97F93B20701D382Fe9383Dee9Af5d0739618](https://etherscan.io/address/0x25fb97f93b20701d382fe9383dee9af5d0739618)|
-| JSC Kaigan Testnet    | [0x1440a247071edde7e1016b18126163d805f98c31](https://explorer.kaigan.jsc.dev/address/0x1440A247071EDdE7e1016b18126163D805f98C31)|
+| Ethereum Sepolia    | [0x3da4100499f91da2fab809db4d03a68d5bf4622c](https://etherscan.io/address/0x3da4100499f91da2fab809db4d03a68d5bf4622c)|
+| JSC Kaigan Testnet    | [0xb56f41d8f0401eaa135a3dbca25fa38c26da47a9](https://explorer.kaigan.jsc.dev/address/0xb56f41d8f0401eaa135a3dbca25fa38c26da47a9)|
 
 ## References　
 - https://docs.circom.io/getting-started/installation
