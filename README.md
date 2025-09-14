@@ -64,7 +64,7 @@ zkIoT bridges physical sensors and blockchain verification through:
 
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
-| Demo Movie      |                                      [zkiot-demo](https://youtu.be/WDGJQbM-rik)|
+| Demo Movie      |                                      [zkiot-demo](https://youtu.be/Q3snpnBragY)|
 | Pitch Doc    |   [zkiot-presentation](https://www.canva.com/design/DAGxszg1ejA/_BAAG-tUr6_MTcjdlD_zBA/edit?utm_content=DAGxszg1ejA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 | Demo Site     |                                 [zkiot-demo](https://zkiot-frontend-intro.vercel.app/) | 
 
